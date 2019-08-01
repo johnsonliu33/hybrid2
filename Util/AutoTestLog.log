@@ -1,0 +1,4 @@
+2019-07-27 18:04:12 log.py[line:12] DEBUG hi
+2019-07-27 18:04:12 log.py[line:24] INFO gloryroad
+2019-07-27 18:04:12 log.py[line:20] WARNING hello
+2019-07-27 18:04:12 log.py[line:16] ERROR something error!

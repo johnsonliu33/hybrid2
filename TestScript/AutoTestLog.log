@@ -1,0 +1,525 @@
+2019-07-27 15:15:35 log.py[line:24] INFO open('chrome')
+2019-07-27 15:15:42 log.py[line:24] INFO 执行成功
+2019-07-27 15:15:42 log.py[line:24] INFO visit('http://www.sogou.com')
+2019-07-27 15:15:45 log.py[line:24] INFO 执行成功
+2019-07-27 15:15:45 log.py[line:24] INFO click('id','stb')
+2019-07-27 15:15:45 log.py[line:24] INFO 执行成功
+2019-07-27 15:15:45 log.py[line:24] INFO sleep('5')
+2019-07-27 15:15:51 log.py[line:24] INFO 执行成功
+2019-07-27 15:15:51 log.py[line:24] INFO assert_word('安全测试')
+2019-07-27 15:15:51 log.py[line:16] ERROR assert_word('安全测试'):Traceback (most recent call last):
+  File "E:/keywor20190720/TestScript/main.py", line 47, in execute
+    eval(command)
+  File "<string>", line 1, in <module>
+  File "E:\keywor20190720\Action\keyword_action.py", line 51, in assert_word
+    raise e
+  File "E:\keywor20190720\Action\keyword_action.py", line 49, in assert_word
+    assert content in driver.page_source
+AssertionError
+
+2019-07-27 15:15:51 log.py[line:24] INFO quit()
+2019-07-27 15:15:54 log.py[line:24] INFO 执行成功
+2019-07-27 15:15:54 log.py[line:24] INFO open('chrome')
+2019-07-27 15:15:58 log.py[line:24] INFO 执行成功
+2019-07-27 15:15:58 log.py[line:24] INFO visit('http://cn.bing.com')
+2019-07-27 15:16:01 log.py[line:24] INFO 执行成功
+2019-07-27 15:16:01 log.py[line:24] INFO input('id','sb_form_q','光荣之路自动化测试')
+2019-07-27 15:16:03 log.py[line:24] INFO 执行成功
+2019-07-27 15:16:03 log.py[line:24] INFO sleep('1')
+2019-07-27 15:16:04 log.py[line:24] INFO 执行成功
+2019-07-27 15:16:04 log.py[line:24] INFO click('id','sb_form_go')
+2019-07-27 15:16:05 log.py[line:24] INFO 执行成功
+2019-07-27 15:16:05 log.py[line:24] INFO sleep('5')
+2019-07-27 15:16:10 log.py[line:24] INFO 执行成功
+2019-07-27 15:16:10 log.py[line:24] INFO assert_word('安全测试1111')
+2019-07-27 15:16:10 log.py[line:16] ERROR assert_word('安全测试1111'):Traceback (most recent call last):
+  File "E:/keywor20190720/TestScript/main.py", line 47, in execute
+    eval(command)
+  File "<string>", line 1, in <module>
+  File "E:\keywor20190720\Action\keyword_action.py", line 51, in assert_word
+    raise e
+  File "E:\keywor20190720\Action\keyword_action.py", line 49, in assert_word
+    assert content in driver.page_source
+AssertionError
+
+2019-07-27 15:16:11 log.py[line:24] INFO quit()
+2019-07-27 15:16:15 log.py[line:24] INFO 执行成功
+2019-07-27 15:18:26 log.py[line:24] INFO open('chrome')
+2019-07-27 15:18:30 log.py[line:24] INFO 执行成功
+2019-07-27 15:18:30 log.py[line:24] INFO visit('http://www.sogou.com')
+2019-07-27 15:18:33 log.py[line:24] INFO 执行成功
+2019-07-27 15:18:33 log.py[line:24] INFO input('id','query')
+2019-07-27 15:18:33 log.py[line:16] ERROR input('id','query'):Traceback (most recent call last):
+  File "E:/keywor20190720/TestScript/main.py", line 47, in execute
+    eval(command)
+  File "<string>", line 1, in <module>
+TypeError: input() missing 1 required positional argument: 'content'
+
+2019-07-27 15:18:34 log.py[line:24] INFO click('id','stb')
+2019-07-27 15:18:34 log.py[line:24] INFO 执行成功
+2019-07-27 15:18:34 log.py[line:24] INFO sleep('5')
+2019-07-27 15:18:39 log.py[line:24] INFO 执行成功
+2019-07-27 15:18:39 log.py[line:24] INFO assert_word('安全测试')
+2019-07-27 15:18:39 log.py[line:16] ERROR assert_word('安全测试'):Traceback (most recent call last):
+  File "E:/keywor20190720/TestScript/main.py", line 47, in execute
+    eval(command)
+  File "<string>", line 1, in <module>
+  File "E:\keywor20190720\Action\keyword_action.py", line 51, in assert_word
+    raise e
+  File "E:\keywor20190720\Action\keyword_action.py", line 49, in assert_word
+    assert content in driver.page_source
+AssertionError
+
+2019-07-27 15:18:40 log.py[line:24] INFO quit()
+2019-07-27 15:18:42 log.py[line:24] INFO 执行成功
+2019-07-27 15:18:42 log.py[line:24] INFO open('chrome')
+2019-07-27 15:18:46 log.py[line:24] INFO 执行成功
+2019-07-27 15:18:46 log.py[line:24] INFO visit('http://cn.bing.com')
+2019-07-27 15:18:49 log.py[line:24] INFO 执行成功
+2019-07-27 15:18:49 log.py[line:24] INFO input('id','sb_form_q','光荣之路自动化测试')
+2019-07-27 15:18:53 log.py[line:24] INFO 执行成功
+2019-07-27 15:18:53 log.py[line:24] INFO sleep('1')
+2019-07-27 15:18:54 log.py[line:24] INFO 执行成功
+2019-07-27 15:18:54 log.py[line:24] INFO click('id','sb_form_go')
+2019-07-27 15:18:58 log.py[line:24] INFO 执行成功
+2019-07-27 15:18:58 log.py[line:24] INFO sleep('5')
+2019-07-27 15:19:03 log.py[line:24] INFO 执行成功
+2019-07-27 15:19:03 log.py[line:24] INFO assert_word('安全测试1111')
+2019-07-27 15:19:03 log.py[line:16] ERROR assert_word('安全测试1111'):Traceback (most recent call last):
+  File "E:/keywor20190720/TestScript/main.py", line 47, in execute
+    eval(command)
+  File "<string>", line 1, in <module>
+  File "E:\keywor20190720\Action\keyword_action.py", line 51, in assert_word
+    raise e
+  File "E:\keywor20190720\Action\keyword_action.py", line 49, in assert_word
+    assert content in driver.page_source
+AssertionError
+
+2019-07-27 15:19:03 log.py[line:24] INFO quit()
+2019-07-27 15:19:06 log.py[line:24] INFO 执行成功
+2019-07-27 15:20:03 log.py[line:24] INFO open('chrome')
+2019-07-27 15:20:07 log.py[line:24] INFO 执行成功
+2019-07-27 15:20:07 log.py[line:24] INFO visit('http://www.sogou.com')
+2019-07-27 15:20:09 log.py[line:24] INFO 执行成功
+2019-07-27 15:20:09 log.py[line:24] INFO input('id','query','光荣之路自动化测试')
+2019-07-27 15:20:10 log.py[line:24] INFO 执行成功
+2019-07-27 15:20:10 log.py[line:24] INFO click('id','stb')
+2019-07-27 15:20:10 log.py[line:24] INFO 执行成功
+2019-07-27 15:20:10 log.py[line:24] INFO sleep('5')
+2019-07-27 15:20:15 log.py[line:24] INFO 执行成功
+2019-07-27 15:20:15 log.py[line:24] INFO assert_word('安全测试')
+2019-07-27 15:20:15 log.py[line:24] INFO 执行成功
+2019-07-27 15:20:15 log.py[line:24] INFO quit()
+2019-07-27 15:20:20 log.py[line:24] INFO 执行成功
+2019-07-27 15:20:20 log.py[line:24] INFO open('chrome')
+2019-07-27 15:20:24 log.py[line:24] INFO 执行成功
+2019-07-27 15:20:24 log.py[line:24] INFO visit('http://cn.bing.com')
+2019-07-27 15:20:26 log.py[line:24] INFO 执行成功
+2019-07-27 15:20:26 log.py[line:24] INFO input('id','sb_form_q','光荣之路自动化测试')
+2019-07-27 15:20:29 log.py[line:24] INFO 执行成功
+2019-07-27 15:20:29 log.py[line:24] INFO sleep('1')
+2019-07-27 15:20:30 log.py[line:24] INFO 执行成功
+2019-07-27 15:20:30 log.py[line:24] INFO click('id','sb_form_go')
+2019-07-27 15:20:30 log.py[line:24] INFO 执行成功
+2019-07-27 15:20:30 log.py[line:24] INFO sleep('5')
+2019-07-27 15:20:35 log.py[line:24] INFO 执行成功
+2019-07-27 15:20:35 log.py[line:24] INFO assert_word('安全测试1111')
+2019-07-27 15:20:35 log.py[line:16] ERROR assert_word('安全测试1111'):Traceback (most recent call last):
+  File "E:/keywor20190720/TestScript/main.py", line 47, in execute
+    eval(command)
+  File "<string>", line 1, in <module>
+  File "E:\keywor20190720\Action\keyword_action.py", line 51, in assert_word
+    raise e
+  File "E:\keywor20190720\Action\keyword_action.py", line 49, in assert_word
+    assert content in driver.page_source
+AssertionError
+
+2019-07-27 15:20:36 log.py[line:24] INFO quit()
+2019-07-27 15:20:39 log.py[line:24] INFO 执行成功
+2019-07-27 17:03:31 log.py[line:24] INFO open('chrome')
+2019-07-27 17:03:37 log.py[line:24] INFO 执行成功
+2019-07-27 17:03:37 log.py[line:24] INFO visit('http://www.sogou.com')
+2019-07-27 17:03:39 log.py[line:24] INFO 执行成功
+2019-07-27 17:03:39 log.py[line:24] INFO input('id','query','${1}')
+2019-07-27 17:03:39 log.py[line:24] INFO 执行成功
+2019-07-27 17:04:40 log.py[line:24] INFO open('chrome')
+2019-07-27 17:04:45 log.py[line:24] INFO 执行成功
+2019-07-27 17:04:45 log.py[line:24] INFO visit('http://www.sogou.com')
+2019-07-27 17:04:56 log.py[line:24] INFO 执行成功
+2019-07-27 17:04:56 log.py[line:24] INFO input('id','query','新狮子王')
+2019-07-27 17:04:56 log.py[line:24] INFO 执行成功
+2019-07-27 17:06:23 log.py[line:24] INFO open('chrome')
+2019-07-27 17:06:27 log.py[line:24] INFO 执行成功
+2019-07-27 17:06:27 log.py[line:24] INFO visit('http://www.sogou.com')
+2019-07-27 17:06:29 log.py[line:24] INFO 执行成功
+2019-07-27 17:06:29 log.py[line:24] INFO input('id','query','${1}')
+2019-07-27 17:06:30 log.py[line:24] INFO 执行成功
+2019-07-27 17:07:34 log.py[line:24] INFO open('chrome')
+2019-07-27 17:07:39 log.py[line:24] INFO 执行成功
+2019-07-27 17:07:39 log.py[line:24] INFO visit('http://www.sogou.com')
+2019-07-27 17:07:42 log.py[line:24] INFO 执行成功
+2019-07-27 17:07:42 log.py[line:24] INFO input('id','query','${1}')
+2019-07-27 17:07:42 log.py[line:24] INFO 执行成功
+2019-07-27 17:08:42 log.py[line:24] INFO open('chrome')
+2019-07-27 17:08:47 log.py[line:24] INFO 执行成功
+2019-07-27 17:08:47 log.py[line:24] INFO visit('http://www.sogou.com')
+2019-07-27 17:08:49 log.py[line:24] INFO 执行成功
+2019-07-27 17:08:49 log.py[line:24] INFO input('id','query','${1}')
+2019-07-27 17:08:50 log.py[line:24] INFO 执行成功
+2019-07-27 17:10:42 log.py[line:24] INFO open('chrome')
+2019-07-27 17:10:49 log.py[line:24] INFO 执行成功
+2019-07-27 17:10:49 log.py[line:24] INFO visit('http://www.sogou.com')
+2019-07-27 17:10:52 log.py[line:24] INFO 执行成功
+2019-07-27 17:10:52 log.py[line:24] INFO input('id','query','${1}')
+2019-07-27 17:10:52 log.py[line:24] INFO 执行成功
+2019-07-27 17:11:37 log.py[line:24] INFO open('chrome')
+2019-07-27 17:11:42 log.py[line:24] INFO 执行成功
+2019-07-27 17:11:42 log.py[line:24] INFO visit('http://www.sogou.com')
+2019-07-27 17:11:47 log.py[line:24] INFO 执行成功
+2019-07-27 17:11:47 log.py[line:24] INFO input('id','query','${1}')
+2019-07-27 17:11:47 log.py[line:24] INFO 执行成功
+2019-07-27 17:11:47 log.py[line:24] INFO click('id','stb')
+2019-07-27 17:11:48 log.py[line:24] INFO 执行成功
+2019-07-27 17:15:10 log.py[line:24] INFO open('chrome')
+2019-07-27 17:15:16 log.py[line:24] INFO 执行成功
+2019-07-27 17:15:16 log.py[line:24] INFO visit('http://www.sogou.com')
+2019-07-27 17:15:18 log.py[line:24] INFO 执行成功
+2019-07-27 17:15:18 log.py[line:24] INFO input('id','query','新狮子王')
+2019-07-27 17:15:18 log.py[line:24] INFO 执行成功
+2019-07-27 17:15:18 log.py[line:24] INFO click('id','stb')
+2019-07-27 17:15:18 log.py[line:24] INFO 执行成功
+2019-07-27 17:15:18 log.py[line:24] INFO sleep('5')
+2019-07-27 17:15:24 log.py[line:24] INFO 执行成功
+2019-07-27 17:15:24 log.py[line:24] INFO assert_word('搜狗视频')
+2019-07-27 17:15:24 log.py[line:24] INFO 执行成功
+2019-07-27 17:15:24 log.py[line:24] INFO quit()
+2019-07-27 17:15:27 log.py[line:24] INFO 执行成功
+2019-07-27 17:15:27 log.py[line:24] INFO open('chrome')
+2019-07-27 17:15:36 log.py[line:24] INFO 执行成功
+2019-07-27 17:15:36 log.py[line:24] INFO visit('http://www.sogou.com')
+2019-07-27 17:15:38 log.py[line:24] INFO 执行成功
+2019-07-27 17:15:38 log.py[line:24] INFO input('id','query','钢铁侠')
+2019-07-27 17:15:38 log.py[line:24] INFO 执行成功
+2019-07-27 17:15:38 log.py[line:24] INFO click('id','stb')
+2019-07-27 17:15:39 log.py[line:24] INFO 执行成功
+2019-07-27 17:15:39 log.py[line:24] INFO sleep('5')
+2019-07-27 17:15:44 log.py[line:24] INFO 执行成功
+2019-07-27 17:15:44 log.py[line:24] INFO assert_word('搜狗百科')
+2019-07-27 17:15:44 log.py[line:24] INFO 执行成功
+2019-07-27 17:15:44 log.py[line:24] INFO quit()
+2019-07-27 17:15:48 log.py[line:24] INFO 执行成功
+2019-07-27 17:31:40 log.py[line:24] INFO open('chrome')
+2019-07-27 17:31:44 log.py[line:24] INFO 执行成功
+2019-07-27 17:31:44 log.py[line:24] INFO visit('http://www.sogou.com')
+2019-07-27 17:31:47 log.py[line:24] INFO 执行成功
+2019-07-27 17:31:47 log.py[line:24] INFO input('id','query','新狮子王')
+2019-07-27 17:31:47 log.py[line:24] INFO 执行成功
+2019-07-27 17:31:47 log.py[line:24] INFO click('id','stb')
+2019-07-27 17:31:48 log.py[line:24] INFO 执行成功
+2019-07-27 17:31:48 log.py[line:24] INFO sleep('5')
+2019-07-27 17:31:53 log.py[line:24] INFO 执行成功
+2019-07-27 17:31:53 log.py[line:24] INFO assert_word('搜狗视频')
+2019-07-27 17:31:53 log.py[line:24] INFO 执行成功
+2019-07-27 17:31:53 log.py[line:24] INFO quit()
+2019-07-27 17:31:56 log.py[line:24] INFO 执行成功
+2019-07-27 17:32:54 log.py[line:24] INFO open('chrome')
+2019-07-27 17:32:58 log.py[line:24] INFO 执行成功
+2019-07-27 17:32:58 log.py[line:24] INFO visit('http://www.sogou.com')
+2019-07-27 17:32:59 log.py[line:24] INFO 执行成功
+2019-07-27 17:32:59 log.py[line:24] INFO input('id','query','新狮子王')
+2019-07-27 17:33:00 log.py[line:24] INFO 执行成功
+2019-07-27 17:33:00 log.py[line:24] INFO click('id','stb')
+2019-07-27 17:33:02 log.py[line:24] INFO 执行成功
+2019-07-27 17:33:02 log.py[line:24] INFO sleep('5')
+2019-07-27 17:33:07 log.py[line:24] INFO 执行成功
+2019-07-27 17:33:07 log.py[line:24] INFO assert_word('搜狗视频')
+2019-07-27 17:33:07 log.py[line:24] INFO 执行成功
+2019-07-27 17:33:07 log.py[line:24] INFO quit()
+2019-07-27 17:33:10 log.py[line:24] INFO 执行成功
+2019-07-27 17:33:10 log.py[line:24] INFO open('chrome')
+2019-07-27 17:33:13 log.py[line:24] INFO 执行成功
+2019-07-27 17:33:13 log.py[line:24] INFO visit('http://www.sogou.com')
+2019-07-27 17:33:14 log.py[line:24] INFO 执行成功
+2019-07-27 17:33:14 log.py[line:24] INFO input('id','query','钢铁侠')
+2019-07-27 17:33:14 log.py[line:24] INFO 执行成功
+2019-07-27 17:33:14 log.py[line:24] INFO click('id','stb')
+2019-07-27 17:33:14 log.py[line:24] INFO 执行成功
+2019-07-27 17:33:14 log.py[line:24] INFO sleep('5')
+2019-07-27 17:33:19 log.py[line:24] INFO 执行成功
+2019-07-27 17:33:19 log.py[line:24] INFO assert_word('搜狗百科')
+2019-07-27 17:33:19 log.py[line:24] INFO 执行成功
+2019-07-27 17:33:19 log.py[line:24] INFO quit()
+2019-07-27 17:33:23 log.py[line:24] INFO 执行成功
+2019-07-27 17:37:42 log.py[line:24] INFO open('chrome')
+2019-07-27 17:37:45 log.py[line:24] INFO 执行成功
+2019-07-27 17:37:45 log.py[line:24] INFO visit('http://www.sogou.com')
+2019-07-27 17:37:47 log.py[line:24] INFO 执行成功
+2019-07-27 17:37:47 log.py[line:24] INFO input('id','query','新狮子王')
+2019-07-27 17:37:47 log.py[line:24] INFO 执行成功
+2019-07-27 17:37:47 log.py[line:24] INFO click('id','stb')
+2019-07-27 17:37:48 log.py[line:24] INFO 执行成功
+2019-07-27 17:37:48 log.py[line:24] INFO sleep('5')
+2019-07-27 17:37:53 log.py[line:24] INFO 执行成功
+2019-07-27 17:37:53 log.py[line:24] INFO assert_word('搜狗视频')
+2019-07-27 17:37:53 log.py[line:24] INFO 执行成功
+2019-07-27 17:37:53 log.py[line:24] INFO quit()
+2019-07-27 17:37:56 log.py[line:24] INFO 执行成功
+2019-07-27 17:41:23 log.py[line:24] INFO open('chrome')
+2019-07-27 17:41:26 log.py[line:24] INFO 执行成功
+2019-07-27 17:41:26 log.py[line:24] INFO visit('http://www.sogou.com')
+2019-07-27 17:41:29 log.py[line:24] INFO 执行成功
+2019-07-27 17:41:29 log.py[line:24] INFO input('id','query','新狮子王')
+2019-07-27 17:41:29 log.py[line:24] INFO 执行成功
+2019-07-27 17:41:29 log.py[line:24] INFO click('id','stb')
+2019-07-27 17:41:30 log.py[line:24] INFO 执行成功
+2019-07-27 17:41:30 log.py[line:24] INFO sleep('5')
+2019-07-27 17:41:35 log.py[line:24] INFO 执行成功
+2019-07-27 17:41:35 log.py[line:24] INFO assert_word('搜狗视频')
+2019-07-27 17:41:35 log.py[line:24] INFO 执行成功
+2019-07-27 17:41:35 log.py[line:24] INFO quit()
+2019-07-27 17:41:39 log.py[line:24] INFO 执行成功
+2019-07-27 17:43:52 log.py[line:24] INFO open('chrome')
+2019-07-27 17:43:55 log.py[line:24] INFO 执行成功
+2019-07-27 17:43:55 log.py[line:24] INFO visit('http://www.sogou.com')
+2019-07-27 17:43:57 log.py[line:24] INFO 执行成功
+2019-07-27 17:43:57 log.py[line:24] INFO input('id','query','新狮子王')
+2019-07-27 17:43:58 log.py[line:24] INFO 执行成功
+2019-07-27 17:43:58 log.py[line:24] INFO click('id','stb')
+2019-07-27 17:43:58 log.py[line:24] INFO 执行成功
+2019-07-27 17:43:58 log.py[line:24] INFO sleep('5')
+2019-07-27 17:44:03 log.py[line:24] INFO 执行成功
+2019-07-27 17:44:03 log.py[line:24] INFO assert_word('搜狗视频')
+2019-07-27 17:44:03 log.py[line:24] INFO 执行成功
+2019-07-27 17:44:03 log.py[line:24] INFO quit()
+2019-07-27 17:44:08 log.py[line:24] INFO 执行成功
+2019-07-27 17:49:54 log.py[line:24] INFO open('chrome')
+2019-07-27 17:49:57 log.py[line:24] INFO 执行成功
+2019-07-27 17:49:57 log.py[line:24] INFO visit('http://www.sogou.com')
+2019-07-27 17:49:59 log.py[line:24] INFO 执行成功
+2019-07-27 17:49:59 log.py[line:24] INFO input('id','query','新狮子王')
+2019-07-27 17:49:59 log.py[line:24] INFO 执行成功
+2019-07-27 17:49:59 log.py[line:24] INFO click('id','stb')
+2019-07-27 17:49:59 log.py[line:24] INFO 执行成功
+2019-07-27 17:49:59 log.py[line:24] INFO sleep('5')
+2019-07-27 17:50:04 log.py[line:24] INFO 执行成功
+2019-07-27 17:50:04 log.py[line:24] INFO assert_word('搜狗视频')
+2019-07-27 17:50:04 log.py[line:24] INFO 执行成功
+2019-07-27 17:50:04 log.py[line:24] INFO quit()
+2019-07-27 17:50:08 log.py[line:24] INFO 执行成功
+2019-07-27 17:51:05 log.py[line:24] INFO open('chrome')
+2019-07-27 17:51:11 log.py[line:24] INFO 执行成功
+2019-07-27 17:51:11 log.py[line:24] INFO visit('http://www.sogou.com')
+2019-07-27 17:51:13 log.py[line:24] INFO 执行成功
+2019-07-27 17:51:13 log.py[line:24] INFO input('id','query','新狮子王')
+2019-07-27 17:51:14 log.py[line:24] INFO 执行成功
+2019-07-27 17:51:14 log.py[line:24] INFO click('id','stb')
+2019-07-27 17:51:14 log.py[line:24] INFO 执行成功
+2019-07-27 17:51:14 log.py[line:24] INFO sleep('5')
+2019-07-27 17:51:19 log.py[line:24] INFO 执行成功
+2019-07-27 17:51:19 log.py[line:24] INFO assert_word('搜狗视频')
+2019-07-27 17:51:19 log.py[line:24] INFO 执行成功
+2019-07-27 17:51:19 log.py[line:24] INFO quit()
+2019-07-27 17:51:22 log.py[line:24] INFO 执行成功
+2019-07-27 17:53:01 log.py[line:24] INFO open('chrome')
+2019-07-27 17:53:04 log.py[line:24] INFO 执行成功
+2019-07-27 17:53:04 log.py[line:24] INFO visit('http://cn.bing.com')
+2019-07-27 17:53:07 log.py[line:24] INFO 执行成功
+2019-07-27 17:53:07 log.py[line:24] INFO input('id','sb_form_q','光荣之路自动化测试')
+2019-07-27 17:53:11 log.py[line:24] INFO 执行成功
+2019-07-27 17:53:11 log.py[line:24] INFO sleep('1')
+2019-07-27 17:53:12 log.py[line:24] INFO 执行成功
+2019-07-27 17:53:12 log.py[line:24] INFO click('id','sb_form_go')
+2019-07-27 17:53:13 log.py[line:24] INFO 执行成功
+2019-07-27 17:53:13 log.py[line:24] INFO sleep('5')
+2019-07-27 17:53:18 log.py[line:24] INFO 执行成功
+2019-07-27 17:53:18 log.py[line:24] INFO assert_word('安全测试1111')
+2019-07-27 17:53:18 log.py[line:16] ERROR assert_word('安全测试1111'):Traceback (most recent call last):
+  File "E:/hybrid2/TestScript/main.py", line 47, in execute
+    eval(command)
+  File "<string>", line 1, in <module>
+  File "E:\hybrid2\Action\keyword_action.py", line 51, in assert_word
+    raise e
+  File "E:\hybrid2\Action\keyword_action.py", line 49, in assert_word
+    assert content in driver.page_source
+AssertionError
+
+2019-07-27 17:53:19 log.py[line:24] INFO quit()
+2019-07-27 17:53:23 log.py[line:24] INFO 执行成功
+2019-07-27 17:55:33 log.py[line:24] INFO open('chrome')
+2019-07-27 17:55:37 log.py[line:24] INFO 执行成功
+2019-07-27 17:55:37 log.py[line:24] INFO visit('http://www.sogou.com')
+2019-07-27 17:55:39 log.py[line:24] INFO 执行成功
+2019-07-27 17:55:39 log.py[line:24] INFO input('id','query','${1}')
+2019-07-27 17:55:39 log.py[line:24] INFO 执行成功
+2019-07-27 17:55:39 log.py[line:24] INFO click('id','stb')
+2019-07-27 17:55:40 log.py[line:24] INFO 执行成功
+2019-07-27 17:55:40 log.py[line:24] INFO sleep('5')
+2019-07-27 17:55:45 log.py[line:24] INFO 执行成功
+2019-07-27 17:55:45 log.py[line:24] INFO assert_word('${2}')
+2019-07-27 17:55:45 log.py[line:16] ERROR assert_word('${2}'):Traceback (most recent call last):
+  File "E:/hybrid2/TestScript/main.py", line 47, in execute
+    eval(command)
+  File "<string>", line 1, in <module>
+  File "E:\hybrid2\Action\keyword_action.py", line 51, in assert_word
+    raise e
+  File "E:\hybrid2\Action\keyword_action.py", line 49, in assert_word
+    assert content in driver.page_source
+AssertionError
+
+2019-07-27 17:55:45 log.py[line:24] INFO quit()
+2019-07-27 17:55:50 log.py[line:24] INFO 执行成功
+2019-07-27 17:55:50 log.py[line:24] INFO open('chrome')
+2019-07-27 17:55:54 log.py[line:24] INFO 执行成功
+2019-07-27 17:55:54 log.py[line:24] INFO visit('http://cn.bing.com')
+2019-07-27 17:55:57 log.py[line:24] INFO 执行成功
+2019-07-27 17:55:57 log.py[line:24] INFO input('id','sb_form_q','光荣之路自动化测试')
+2019-07-27 17:55:59 log.py[line:24] INFO 执行成功
+2019-07-27 17:55:59 log.py[line:24] INFO sleep('1')
+2019-07-27 17:56:00 log.py[line:24] INFO 执行成功
+2019-07-27 17:56:00 log.py[line:24] INFO click('id','sb_form_go')
+2019-07-27 17:56:01 log.py[line:24] INFO 执行成功
+2019-07-27 17:56:01 log.py[line:24] INFO sleep('5')
+2019-07-27 17:56:06 log.py[line:24] INFO 执行成功
+2019-07-27 17:56:06 log.py[line:24] INFO assert_word('安全测试1111')
+2019-07-27 17:56:06 log.py[line:16] ERROR assert_word('安全测试1111'):Traceback (most recent call last):
+  File "E:/hybrid2/TestScript/main.py", line 47, in execute
+    eval(command)
+  File "<string>", line 1, in <module>
+  File "E:\hybrid2\Action\keyword_action.py", line 51, in assert_word
+    raise e
+  File "E:\hybrid2\Action\keyword_action.py", line 49, in assert_word
+    assert content in driver.page_source
+AssertionError
+
+2019-07-27 17:56:56 log.py[line:24] INFO open('chrome')
+2019-07-27 17:57:01 log.py[line:24] INFO 执行成功
+2019-07-27 17:57:01 log.py[line:24] INFO visit('http://www.sogou.com')
+2019-07-27 17:57:03 log.py[line:24] INFO 执行成功
+2019-07-27 17:57:03 log.py[line:24] INFO input('id','query','新狮子王')
+2019-07-27 17:57:03 log.py[line:24] INFO 执行成功
+2019-07-27 17:57:03 log.py[line:24] INFO click('id','stb')
+2019-07-27 17:57:04 log.py[line:24] INFO 执行成功
+2019-07-27 17:57:04 log.py[line:24] INFO sleep('5')
+2019-07-27 17:57:09 log.py[line:24] INFO 执行成功
+2019-07-27 17:57:09 log.py[line:24] INFO assert_word('搜狗视频')
+2019-07-27 17:57:09 log.py[line:24] INFO 执行成功
+2019-07-27 17:57:09 log.py[line:24] INFO quit()
+2019-07-27 17:57:13 log.py[line:24] INFO 执行成功
+2019-07-27 17:57:13 log.py[line:24] INFO open('chrome')
+2019-07-27 17:57:16 log.py[line:24] INFO 执行成功
+2019-07-27 17:57:16 log.py[line:24] INFO visit('http://cn.bing.com')
+2019-07-27 17:57:18 log.py[line:24] INFO 执行成功
+2019-07-27 17:57:18 log.py[line:24] INFO input('id','sb_form_q','光荣之路自动化测试')
+2019-07-27 17:57:18 log.py[line:24] INFO 执行成功
+2019-07-27 17:57:18 log.py[line:24] INFO sleep('1')
+2019-07-27 17:57:19 log.py[line:24] INFO 执行成功
+2019-07-27 17:57:19 log.py[line:24] INFO click('id','sb_form_go')
+2019-07-27 17:57:20 log.py[line:24] INFO 执行成功
+2019-07-27 17:57:20 log.py[line:24] INFO sleep('5')
+2019-07-27 17:57:26 log.py[line:24] INFO 执行成功
+2019-07-27 17:57:26 log.py[line:24] INFO assert_word('安全测试1111')
+2019-07-27 17:57:26 log.py[line:16] ERROR assert_word('安全测试1111'):Traceback (most recent call last):
+  File "E:/hybrid2/TestScript/main.py", line 47, in execute
+    eval(command)
+  File "<string>", line 1, in <module>
+  File "E:\hybrid2\Action\keyword_action.py", line 51, in assert_word
+    raise e
+  File "E:\hybrid2\Action\keyword_action.py", line 49, in assert_word
+    assert content in driver.page_source
+AssertionError
+
+2019-07-27 17:57:27 log.py[line:24] INFO quit()
+2019-07-27 17:57:32 log.py[line:24] INFO 执行成功
+2019-07-27 18:09:41 log.py[line:24] INFO open('chrome')
+2019-07-27 18:09:41 log.py[line:16] ERROR open('chrome'):Traceback (most recent call last):
+  File "C:\Users\11067\AppData\Local\Programs\Python\Python35\lib\site-packages\selenium\webdriver\common\service.py", line 62, in start
+    stdout=self.log_file, stderr=self.log_file)
+  File "C:\Users\11067\AppData\Local\Programs\Python\Python35\lib\subprocess.py", line 676, in __init__
+    restore_signals, start_new_session)
+  File "C:\Users\11067\AppData\Local\Programs\Python\Python35\lib\subprocess.py", line 955, in _execute_child
+    startupinfo)
+FileNotFoundError: [WinError 2] ϵͳ�Ҳ���ָ�����ļ���
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:/PythonTest/gloryroad/20190727/hybrid2/TestScript/main.py", line 126, in execute_hybrid
+    eval(command)
+  File "<string>", line 1, in <module>
+  File "F:\PythonTest\gloryroad\20190727\hybrid2\Action\keyword_action.py", line 17, in open
+    raise e
+  File "F:\PythonTest\gloryroad\20190727\hybrid2\Action\keyword_action.py", line 13, in open
+    driver = webdriver.Chrome(executable_path=chromeDriverFilePath)
+  File "C:\Users\11067\AppData\Local\Programs\Python\Python35\lib\site-packages\selenium\webdriver\chrome\webdriver.py", line 61, in __init__
+    self.service.start()
+  File "C:\Users\11067\AppData\Local\Programs\Python\Python35\lib\site-packages\selenium\webdriver\common\service.py", line 69, in start
+    os.path.basename(self.path), self.start_error_message)
+selenium.common.exceptions.WebDriverException: Message: 'chromedriver' executable needs to be in PATH. Please see https://sites.google.com/a/chromium.org/chromedriver/home
+
+
+2019-07-27 18:10:23 log.py[line:24] INFO open('chrome')
+2019-07-27 18:10:23 log.py[line:16] ERROR open('chrome'):Traceback (most recent call last):
+  File "C:\Users\11067\AppData\Local\Programs\Python\Python35\lib\site-packages\selenium\webdriver\common\service.py", line 62, in start
+    stdout=self.log_file, stderr=self.log_file)
+  File "C:\Users\11067\AppData\Local\Programs\Python\Python35\lib\subprocess.py", line 676, in __init__
+    restore_signals, start_new_session)
+  File "C:\Users\11067\AppData\Local\Programs\Python\Python35\lib\subprocess.py", line 955, in _execute_child
+    startupinfo)
+FileNotFoundError: [WinError 2] ϵͳ�Ҳ���ָ�����ļ���
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:/PythonTest/gloryroad/20190727/hybrid2/TestScript/main.py", line 126, in execute_hybrid
+    eval(command)
+  File "<string>", line 1, in <module>
+  File "F:\PythonTest\gloryroad\20190727\hybrid2\Action\keyword_action.py", line 17, in open
+    raise e
+  File "F:\PythonTest\gloryroad\20190727\hybrid2\Action\keyword_action.py", line 13, in open
+    driver = webdriver.Chrome(executable_path=chromeDriverFilePath)
+  File "C:\Users\11067\AppData\Local\Programs\Python\Python35\lib\site-packages\selenium\webdriver\chrome\webdriver.py", line 61, in __init__
+    self.service.start()
+  File "C:\Users\11067\AppData\Local\Programs\Python\Python35\lib\site-packages\selenium\webdriver\common\service.py", line 69, in start
+    os.path.basename(self.path), self.start_error_message)
+selenium.common.exceptions.WebDriverException: Message: 'chromedriver' executable needs to be in PATH. Please see https://sites.google.com/a/chromium.org/chromedriver/home
+
+
+2019-07-27 18:11:38 log.py[line:24] INFO open('chrome')
+2019-07-27 18:11:40 log.py[line:24] INFO ִ�гɹ�
+2019-07-27 18:11:40 log.py[line:24] INFO visit('http://www.sogou.com')
+2019-07-27 18:11:41 log.py[line:24] INFO ִ�гɹ�
+2019-07-27 18:11:41 log.py[line:24] INFO input('id','query','��ʨ����')
+2019-07-27 18:11:41 log.py[line:24] INFO ִ�гɹ�
+2019-07-27 18:11:41 log.py[line:24] INFO click('id','stb')
+2019-07-27 18:11:41 log.py[line:24] INFO ִ�гɹ�
+2019-07-27 18:11:41 log.py[line:24] INFO sleep('5')
+2019-07-27 18:11:46 log.py[line:24] INFO ִ�гɹ�
+2019-07-27 18:11:46 log.py[line:24] INFO assert_word('�ѹ���Ƶ')
+2019-07-27 18:11:46 log.py[line:24] INFO ִ�гɹ�
+2019-07-27 18:11:46 log.py[line:24] INFO quit()
+2019-07-27 18:11:47 log.py[line:24] INFO ִ�гɹ�
+2019-07-27 18:11:48 log.py[line:24] INFO open('chrome')
+2019-07-27 18:11:50 log.py[line:24] INFO ִ�гɹ�
+2019-07-27 18:11:50 log.py[line:24] INFO visit('http://cn.bing.com')
+2019-07-27 18:11:57 log.py[line:24] INFO ִ�гɹ�
+2019-07-27 18:11:57 log.py[line:24] INFO input('id','sb_form_q','����֮·�Զ�������')
+2019-07-27 18:11:57 log.py[line:24] INFO ִ�гɹ�
+2019-07-27 18:11:57 log.py[line:24] INFO sleep('1')
+2019-07-27 18:11:59 log.py[line:24] INFO ִ�гɹ�
+2019-07-27 18:11:59 log.py[line:24] INFO click('id','sb_form_go')
+2019-07-27 18:12:01 log.py[line:24] INFO ִ�гɹ�
+2019-07-27 18:12:01 log.py[line:24] INFO sleep('5')
+2019-07-27 18:12:06 log.py[line:24] INFO ִ�гɹ�
+2019-07-27 18:12:06 log.py[line:24] INFO assert_word('��ȫ����1111')
+2019-07-27 18:12:06 log.py[line:16] ERROR assert_word('��ȫ����1111'):Traceback (most recent call last):
+  File "F:/PythonTest/gloryroad/20190727/hybrid2/TestScript/main.py", line 51, in execute
+    eval(command)
+  File "<string>", line 1, in <module>
+  File "F:\PythonTest\gloryroad\20190727\hybrid2\Action\keyword_action.py", line 51, in assert_word
+    raise e
+  File "F:\PythonTest\gloryroad\20190727\hybrid2\Action\keyword_action.py", line 49, in assert_word
+    assert content in driver.page_source
+AssertionError
+
+2019-07-27 18:12:07 log.py[line:24] INFO quit()
+2019-07-27 18:12:08 log.py[line:24] INFO ִ�гɹ�
